@@ -29,9 +29,9 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
-  width: 40%;
+  width: 45%;
   margin-top: 20px;
-  margin-right: 50%;
+  margin-right: 52%;
 }
 
 .search-input {
@@ -101,3 +101,49 @@ nav a.active {
   color: white;
 }
 
+.headings {
+  display: flex;
+  flex-direction: row;
+  margin-left: -50%;
+  align-items: center;
+}
+
+.Item {
+  color: white;
+  margin: 20px;
+  margin-top: -670px;
+}
+
+.new-navbar-nav {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 60px;
+  margin-left: -215px;
+  
+}
+
+.new-navbar-nav li {
+  margin-right: 10px;
+ 
+}
+
+.new-navbar-nav a {
+  text-decoration: none;
+  color: grey;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  position: relative;
+  justify-content: space-between;
+  margin: 8px;
+}
+
+
+.new-navbar-nav a:hover {
+  text-decoration: none;
+}
+
+.new-navbar-nav li::before {
+  content: none;
+}

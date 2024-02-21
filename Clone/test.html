@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="col">
-      <div
-        class="row"
-        style="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="col">
+    <div class="row" style="
           flex-direction: column;
           justify-content: flex-start;
           align-items: center;
           height: 50px;
-        "
-      >
-        <div class="search-container">
-          <select class="dropdown">
-            <option value="option1">GET</option>
-            <option value="option2">POST</option>
-            <option value="option3">PUT</option>
-            <option value="option1">DELETE</option>
-            <option value="option2">PATCH</option>
+        ">
+      <div class="search-container">
+        <select class="dropdown">
+          <option value="option1">GET</option>
+          <option value="option2">POST</option>
+          <option value="option3">PUT</option>
+          <option value="option1">DELETE</option>
+          <option value="option2">PATCH</option>
+        </select>
+        <input type="text" class="search-input" />
+        <button class="send-button">Send</button>
 
-          </select>
-
-          <input type="text" class="search-input" />
-
-          <button class="send-button">Send</button>
-        </div>
       </div>
-
-      <nav>
-        <a href="#">Query</a>
-        <a href="#">Headers</a>
-        <a href="#">Auth</a>
-        <a href="#">Body</a>
-        <a href="#">Tests</a>
-        <a href="#">Pre Run</a>
-      </nav>
-
-
-      <hr
-        style="
-          background-color: #484a4f;
-          height: 0.5px;
-          width: 100%;
-          border: none;
-        "
-      />
-
-      <div class="vl"></div>
     </div>
-  </body>
+
+
+    <nav>
+      <a href="#">Query</a>
+      <a href="#">Headers</a>
+      <a href="#">Auth</a>
+      <a href="#">Body</a>
+      <a href="#">Tests</a>
+      <a href="#">Pre Run</a>
+    </nav>
+
+
+    <hr style="
+        background-color: #484a4f;
+        height: 0.5px;
+        width: 100%;
+        border: none;
+      " />
+  </div>
+  <div class="headings">
+    <div class="Item">Status:</div>
+    <div class="Item">Size:</div>
+    <div class="Item">Time:</div>
+  </div>
+
+  <div class="new-navbar">
+    <ul class="new-navbar-nav">
+      <li><a href="#">Response</a></li>
+      <li><a href="#">Headers</a></li>
+      <li><a href="#">Cookies</a></li>
+      <li><a href="#">Results</a></li>
+      <li><a href="#">Docs</a></li>
+    </ul>
+  </div>
+  
+
+
+
+
+
+
+
+  <div class="vl"></div>
+  </div>
+</body>
+
 </html>
